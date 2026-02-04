@@ -15,3 +15,5 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 # To clear sensitive data from RAM
 zeroize = { version = "1.7", features = ["derive"] }
+# To prevent Password leak onto screen and shell history
+rpassword = "7.3"
